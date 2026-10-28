@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 String? authToken;
 
 const apiBase = String.fromEnvironment('API_BASE',
-    defaultValue: 'http://localhost:4000/api');
+    defaultValue: 'https://lavazza-cafe-api.onrender.com');
 void main() => runApp(const CafeApp());
 
 class CafeApp extends StatelessWidget {
